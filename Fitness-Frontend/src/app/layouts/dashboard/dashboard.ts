@@ -2,12 +2,25 @@ import { Component } from '@angular/core';
 
 import { Router } from '@angular/router';
 
+import { NavbarComponent }
+from '../../shared/navbar/navbar';
+
+import { SidebarComponent }
+from '../../shared/sidebar/sidebar';
+
 @Component({
   selector: 'app-dashboard',
+
   standalone: true,
-  imports: [],
+
+  imports: [
+    NavbarComponent,
+    SidebarComponent
+  ],
+
   templateUrl: './dashboard.html',
-  styleUrl: './dashboard.css'
+
+  styleUrls: ['./dashboard.css']
 })
 
 export class DashboardComponent {

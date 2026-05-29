@@ -24,6 +24,26 @@ export const routes: Routes = [
   {
     path: 'dashboard',
     component: DashboardComponent
-  }
+  },
 
+  {
+    path: 'bmi',
+    loadComponent: () =>
+      import('./pages/bmi/bmi')
+      .then(m => m.Bmi)
+  },
+
+  {
+    path: 'calories',
+    loadComponent: () =>
+      import('./pages/calories/calories')
+      .then(m => m.Calories)
+  },
+
+ {
+  path: 'profile',
+  loadComponent: () =>
+    import('./pages/profile/profile')
+    .then(m => m.Profile)
+}
 ];

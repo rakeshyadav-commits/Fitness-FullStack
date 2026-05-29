@@ -139,3 +139,27 @@ WHERE [u].[Email] = @__dto_Email_0
 2026-05-21 14:52:20.699 +05:30 [INF] RESPONSE => 200 BODY => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiUmFrZXNoIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoicmFrZXNoQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiVXNlcklkIjoiMSIsImV4cCI6MTc3OTM2MjU0MCwiaXNzIjoiRml0bmVzc0FQSSIsImF1ZCI6IkZpdG5lc3NVc2VycyJ9.GWmwO0QZ5q82Ni-gk7RSEKuUw3DZY2tIYZuUwBezr_M
 2026-05-21 14:52:20.700 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44337/api/Auth/login - 200 null text/plain; charset=utf-8 308.092ms
 2026-05-21 15:01:45.757 +05:30 [INF] Application is shutting down...
+2026-05-21 15:23:20.647 +05:30 [INF] User profile is available. Using 'C:\Users\losst\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-21 15:23:20.890 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44337/swagger/index.html - null null
+2026-05-21 15:23:21.005 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-21 15:23:21.005 +05:30 [INF] Hosting environment: Development
+2026-05-21 15:23:21.005 +05:30 [INF] Content root path: D:\Fitness-FullStack\FitnessAPI
+2026-05-21 15:23:21.146 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44337/swagger/index.html - 200 null text/html;charset=utf-8 263.406ms
+2026-05-21 15:23:21.150 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-21 15:23:21.158 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - null null
+2026-05-21 15:23:21.169 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - 200 14925 application/javascript; charset=utf-8 11.5889ms
+2026-05-21 15:23:21.226 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.6027ms
+2026-05-21 15:23:21.252 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44337/swagger/v1/swagger.json - null null
+2026-05-21 15:23:21.259 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44337/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.58ms
+2026-05-21 15:24:52.199 +05:30 [INF] User profile is available. Using 'C:\Users\losst\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-21 15:24:52.393 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44337/swagger/index.html - null null
+2026-05-21 15:24:52.489 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-21 15:24:52.490 +05:30 [INF] Hosting environment: Development
+2026-05-21 15:24:52.490 +05:30 [INF] Content root path: D:\Fitness-FullStack\FitnessAPI
+2026-05-21 15:24:52.601 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-21 15:24:52.598 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44337/swagger/index.html - 200 null text/html;charset=utf-8 212.2007ms
+2026-05-21 15:24:52.604 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44337/_vs/browserLink - null null
+2026-05-21 15:24:52.614 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44337/_framework/aspnetcore-browser-refresh.js - 200 14925 application/javascript; charset=utf-8 8.2505ms
+2026-05-21 15:24:52.659 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44337/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.1799ms
+2026-05-21 15:24:52.690 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44337/swagger/v1/swagger.json - null null
+2026-05-21 15:24:52.695 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44337/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.5321ms

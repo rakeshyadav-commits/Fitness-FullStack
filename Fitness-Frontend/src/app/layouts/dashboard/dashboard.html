@@ -1,11 +1,45 @@
-<div class="dashboard-container">
+<div class="d-flex">
 
-  <h1>Dashboard</h1>
+  <!-- Sidebar -->
+  <app-sidebar></app-sidebar>
 
-  <h2>Welcome User</h2>
+  <div class="flex-grow-1">
 
-  <button (click)="logout()">
-    Logout
-  </button>
+    <!-- Navbar -->
+    <app-navbar></app-navbar>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+
+      <h2>Fitness Dashboard</h2>
+
+      <div class="row mt-4">
+
+        <div class="col-md-4">
+          <div class="card shadow p-3">
+            <h5>BMI</h5>
+            <p>Check your Body Mass Index</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow p-3">
+            <h5>Calories</h5>
+            <p>Track daily calories</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow p-3">
+            <h5>Profile</h5>
+            <p>Manage your profile</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
 
 </div>

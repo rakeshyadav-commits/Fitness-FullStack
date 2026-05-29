@@ -165,3 +165,5 @@ D:\Fitness-FullStack\FitnessAPI\bin\Debug\net8.0\System.IO.Pipelines.dll
 D:\Fitness-FullStack\FitnessAPI\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 D:\Fitness-FullStack\FitnessAPI\bin\Debug\net8.0\System.Text.Json.dll
 D:\Fitness-FullStack\FitnessAPI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Fitness-FullStack\FitnessAPI\obj\Debug\net8.0\FitnessAPI.sourcelink.json
+D:\Fitness-FullStack\FitnessAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
